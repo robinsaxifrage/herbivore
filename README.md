@@ -1,5 +1,20 @@
 herbivore
 =========
-a javascript-enabled sidescroller
+a highly customizable and scriptable sidescroller
 
-files with the extention .entity, .ai, .note, .menu are archives that can be opened by most unrar programs (7z, WinRar)
+resource types:
+.wav
+.png
+
+doctypes:
+.txt
+.xml
+.ini
+.js
+
+archive types:
+.entity
+.menu
+.note
+.ai
+.op
