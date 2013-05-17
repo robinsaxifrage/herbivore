@@ -1,0 +1,10 @@
+loaded from res/consolehelp.txt
+all scripting is in javascript
+stock commands:
+	- help: display this message
+	- clear: clears the console
+	- fq: force quits the program
+arguments
+	- current: an array of currently clicked objects
+	- world: the world object, only passed in game
+	- player: the player object, only passed in game
