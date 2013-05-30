@@ -54,7 +54,7 @@ public class Herbivore
             run_loadCurrentRunner();
             while (currentRunner.isRunning()){
                 if (Display.isCloseRequested()){
-                    if (ConfigUtils.get("runtime", "windowCloseIsFq", boolean.class)){
+                    if (ConfigUtils.get("runtime", "windowCloseIsForceQuit", boolean.class)){
                         Logger.debug("closing window is force ");
                         System.exit(0);
                     }

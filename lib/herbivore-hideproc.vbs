@@ -1,1 +1,0 @@
-CreateObject("Wscript.Shell").Run "lib\\herbivore-showproc.bat", 0, True

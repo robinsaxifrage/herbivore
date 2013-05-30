@@ -1,4 +1,5 @@
 package herbivore.game;
+import herbivore.misc.Logger;
 import herbivore.res.LoadUtils;
 import herbivore.res.Resource;
 import herbivore.run.RunnerGame;
@@ -16,7 +17,7 @@ public class WorldGeneratorScript
      * @param resource the directory that contains the level to load
      */
     public WorldGeneratorScript(Resource resource){
-        LoadUtils.assertCustomSearchLocation(resource.getResourcePath());
+        LoadUtils.assertCustomSearchLocation("res/level/" + resource.getResourceName());
         scriptFile = resource.getSubResource("script.js").loadAsScriptFile();
     }
     

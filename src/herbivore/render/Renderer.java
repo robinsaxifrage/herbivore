@@ -80,7 +80,6 @@ public class Renderer {
         drawVignette = ConfigUtils.get("graphics", "drawVignette", boolean.class);
         softwareGL = ConfigUtils.get("graphics", "softwareGL", boolean.class);
         decoratedWindow = ConfigUtils.get("graphics", "decoratedWindow", boolean.class);
-        //System.setProperty("org.lwjgl.librarypath", System.getProperty("user.dir") + "/lib");
         System.setProperty("org.lwjgl.opengl.Window.undecorated", !decoratedWindow + "");
         System.setProperty("org.lwjgl.opengl.Display.allowSoftwareOpenGL", softwareGL + "");
     }
